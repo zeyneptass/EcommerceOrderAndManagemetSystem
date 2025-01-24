@@ -1,12 +1,530 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{96D856EA-A22A-456E-B4CE-CFC68684CB35}|Business\\Business.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\e-commerce order and management system\\ecommerceorderandmanagementsystem\\business\\concrete\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D856EA-A22A-456E-B4CE-CFC68684CB35}|Business\\Business.csproj|solutionrelative:business\\concrete\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D856EA-A22A-456E-B4CE-CFC68684CB35}|Business\\Business.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\e-commerce order and management system\\ecommerceorderandmanagementsystem\\business\\concrete\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D856EA-A22A-456E-B4CE-CFC68684CB35}|Business\\Business.csproj|solutionrelative:business\\concrete\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D856EA-A22A-456E-B4CE-CFC68684CB35}|Business\\Business.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\e-commerce order and management system\\ecommerceorderandmanagementsystem\\business\\concrete\\productimagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D856EA-A22A-456E-B4CE-CFC68684CB35}|Business\\Business.csproj|solutionrelative:business\\concrete\\productimagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D856EA-A22A-456E-B4CE-CFC68684CB35}|Business\\Business.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\e-commerce order and management system\\ecommerceorderandmanagementsystem\\business\\concrete\\paymentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D856EA-A22A-456E-B4CE-CFC68684CB35}|Business\\Business.csproj|solutionrelative:business\\concrete\\paymentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D856EA-A22A-456E-B4CE-CFC68684CB35}|Business\\Business.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\e-commerce order and management system\\ecommerceorderandmanagementsystem\\business\\concrete\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D856EA-A22A-456E-B4CE-CFC68684CB35}|Business\\Business.csproj|solutionrelative:business\\concrete\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D856EA-A22A-456E-B4CE-CFC68684CB35}|Business\\Business.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\e-commerce order and management system\\ecommerceorderandmanagementsystem\\business\\concrete\\orderitemmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D856EA-A22A-456E-B4CE-CFC68684CB35}|Business\\Business.csproj|solutionrelative:business\\concrete\\orderitemmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D856EA-A22A-456E-B4CE-CFC68684CB35}|Business\\Business.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\e-commerce order and management system\\ecommerceorderandmanagementsystem\\business\\concrete\\messagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D856EA-A22A-456E-B4CE-CFC68684CB35}|Business\\Business.csproj|solutionrelative:business\\concrete\\messagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D856EA-A22A-456E-B4CE-CFC68684CB35}|Business\\Business.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\e-commerce order and management system\\ecommerceorderandmanagementsystem\\business\\concrete\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D856EA-A22A-456E-B4CE-CFC68684CB35}|Business\\Business.csproj|solutionrelative:business\\concrete\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D856EA-A22A-456E-B4CE-CFC68684CB35}|Business\\Business.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\e-commerce order and management system\\ecommerceorderandmanagementsystem\\business\\concrete\\cartitemmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D856EA-A22A-456E-B4CE-CFC68684CB35}|Business\\Business.csproj|solutionrelative:business\\concrete\\cartitemmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D856EA-A22A-456E-B4CE-CFC68684CB35}|Business\\Business.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\e-commerce order and management system\\ecommerceorderandmanagementsystem\\business\\concrete\\addressmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D856EA-A22A-456E-B4CE-CFC68684CB35}|Business\\Business.csproj|solutionrelative:business\\concrete\\addressmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D856EA-A22A-456E-B4CE-CFC68684CB35}|Business\\Business.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\e-commerce order and management system\\ecommerceorderandmanagementsystem\\business\\abstract\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D856EA-A22A-456E-B4CE-CFC68684CB35}|Business\\Business.csproj|solutionrelative:business\\abstract\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D856EA-A22A-456E-B4CE-CFC68684CB35}|Business\\Business.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\e-commerce order and management system\\ecommerceorderandmanagementsystem\\business\\abstract\\iproductimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D856EA-A22A-456E-B4CE-CFC68684CB35}|Business\\Business.csproj|solutionrelative:business\\abstract\\iproductimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D856EA-A22A-456E-B4CE-CFC68684CB35}|Business\\Business.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\e-commerce order and management system\\ecommerceorderandmanagementsystem\\business\\abstract\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D856EA-A22A-456E-B4CE-CFC68684CB35}|Business\\Business.csproj|solutionrelative:business\\abstract\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D856EA-A22A-456E-B4CE-CFC68684CB35}|Business\\Business.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\e-commerce order and management system\\ecommerceorderandmanagementsystem\\business\\abstract\\iorderitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D856EA-A22A-456E-B4CE-CFC68684CB35}|Business\\Business.csproj|solutionrelative:business\\abstract\\iorderitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D856EA-A22A-456E-B4CE-CFC68684CB35}|Business\\Business.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\e-commerce order and management system\\ecommerceorderandmanagementsystem\\business\\abstract\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D856EA-A22A-456E-B4CE-CFC68684CB35}|Business\\Business.csproj|solutionrelative:business\\abstract\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D856EA-A22A-456E-B4CE-CFC68684CB35}|Business\\Business.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\e-commerce order and management system\\ecommerceorderandmanagementsystem\\business\\abstract\\imessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D856EA-A22A-456E-B4CE-CFC68684CB35}|Business\\Business.csproj|solutionrelative:business\\abstract\\imessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D856EA-A22A-456E-B4CE-CFC68684CB35}|Business\\Business.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\e-commerce order and management system\\ecommerceorderandmanagementsystem\\business\\abstract\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D856EA-A22A-456E-B4CE-CFC68684CB35}|Business\\Business.csproj|solutionrelative:business\\abstract\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D856EA-A22A-456E-B4CE-CFC68684CB35}|Business\\Business.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\e-commerce order and management system\\ecommerceorderandmanagementsystem\\business\\abstract\\icartitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D856EA-A22A-456E-B4CE-CFC68684CB35}|Business\\Business.csproj|solutionrelative:business\\abstract\\icartitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D856EA-A22A-456E-B4CE-CFC68684CB35}|Business\\Business.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\e-commerce order and management system\\ecommerceorderandmanagementsystem\\business\\abstract\\iaddressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D856EA-A22A-456E-B4CE-CFC68684CB35}|Business\\Business.csproj|solutionrelative:business\\abstract\\iaddressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D856EA-A22A-456E-B4CE-CFC68684CB35}|Business\\Business.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\e-commerce order and management system\\ecommerceorderandmanagementsystem\\business\\abstract\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D856EA-A22A-456E-B4CE-CFC68684CB35}|Business\\Business.csproj|solutionrelative:business\\abstract\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A07593E-5C8C-416B-9FDD-C98FAA37C49C}|DataAccess\\DataAccess.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\e-commerce order and management system\\ecommerceorderandmanagementsystem\\dataaccess\\abstract\\iproductdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A07593E-5C8C-416B-9FDD-C98FAA37C49C}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\iproductdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A07593E-5C8C-416B-9FDD-C98FAA37C49C}|DataAccess\\DataAccess.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\e-commerce order and management system\\ecommerceorderandmanagementsystem\\dataaccess\\abstract\\iuserdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A07593E-5C8C-416B-9FDD-C98FAA37C49C}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\iuserdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A07593E-5C8C-416B-9FDD-C98FAA37C49C}|DataAccess\\DataAccess.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\e-commerce order and management system\\ecommerceorderandmanagementsystem\\dataaccess\\abstract\\iproductimagedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A07593E-5C8C-416B-9FDD-C98FAA37C49C}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\iproductimagedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A07593E-5C8C-416B-9FDD-C98FAA37C49C}|DataAccess\\DataAccess.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\e-commerce order and management system\\ecommerceorderandmanagementsystem\\dataaccess\\abstract\\iaddressdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A07593E-5C8C-416B-9FDD-C98FAA37C49C}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\iaddressdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A07593E-5C8C-416B-9FDD-C98FAA37C49C}|DataAccess\\DataAccess.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\e-commerce order and management system\\ecommerceorderandmanagementsystem\\dataaccess\\abstract\\icartitemdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A07593E-5C8C-416B-9FDD-C98FAA37C49C}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\icartitemdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A07593E-5C8C-416B-9FDD-C98FAA37C49C}|DataAccess\\DataAccess.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\e-commerce order and management system\\ecommerceorderandmanagementsystem\\dataaccess\\abstract\\imessagedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A07593E-5C8C-416B-9FDD-C98FAA37C49C}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\imessagedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A07593E-5C8C-416B-9FDD-C98FAA37C49C}|DataAccess\\DataAccess.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\e-commerce order and management system\\ecommerceorderandmanagementsystem\\dataaccess\\abstract\\iorderdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A07593E-5C8C-416B-9FDD-C98FAA37C49C}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\iorderdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A07593E-5C8C-416B-9FDD-C98FAA37C49C}|DataAccess\\DataAccess.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\e-commerce order and management system\\ecommerceorderandmanagementsystem\\dataaccess\\abstract\\icategorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A07593E-5C8C-416B-9FDD-C98FAA37C49C}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\icategorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A07593E-5C8C-416B-9FDD-C98FAA37C49C}|DataAccess\\DataAccess.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\e-commerce order and management system\\ecommerceorderandmanagementsystem\\dataaccess\\abstract\\iorderitemdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A07593E-5C8C-416B-9FDD-C98FAA37C49C}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\iorderitemdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A07593E-5C8C-416B-9FDD-C98FAA37C49C}|DataAccess\\DataAccess.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\e-commerce order and management system\\ecommerceorderandmanagementsystem\\dataaccess\\abstract\\ipaymentdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A07593E-5C8C-416B-9FDD-C98FAA37C49C}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\ipaymentdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 184,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderManager.cs",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\Business\\Concrete\\OrderManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\OrderManager.cs",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\Business\\Concrete\\OrderManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\OrderManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T20:23:42.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderItemManager.cs",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\Business\\Concrete\\OrderItemManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\OrderItemManager.cs",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\Business\\Concrete\\OrderItemManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\OrderItemManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T20:15:06.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PaymentManager.cs",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\Business\\Concrete\\PaymentManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\PaymentManager.cs",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\Business\\Concrete\\PaymentManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\PaymentManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T20:16:04.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductImageManager.cs",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\Business\\Concrete\\ProductImageManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\ProductImageManager.cs",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\Business\\Concrete\\ProductImageManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\ProductImageManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T20:17:09.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductManager.cs",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\Business\\Concrete\\ProductManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\ProductManager.cs",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\Business\\Concrete\\ProductManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\ProductManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T20:11:49.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserManager.cs",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\Business\\Concrete\\UserManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\UserManager.cs",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\Business\\Concrete\\UserManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\UserManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T20:17:56.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MessageManager.cs",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\Business\\Concrete\\MessageManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\MessageManager.cs",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\Business\\Concrete\\MessageManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\MessageManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T20:12:57.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoryManager.cs",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\Business\\Concrete\\CategoryManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\CategoryManager.cs",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\Business\\Concrete\\CategoryManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\CategoryManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T20:11:29.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CartItemManager.cs",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\Business\\Concrete\\CartItemManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\CartItemManager.cs",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\Business\\Concrete\\CartItemManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\CartItemManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T20:11:11.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddressManager.cs",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\Business\\Concrete\\AddressManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\AddressManager.cs",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\Business\\Concrete\\AddressManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\AddressManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T20:10:44.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\Business\\Abstract\\IUserService.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\IUserService.cs",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\Business\\Abstract\\IUserService.cs",
+              "RelativeToolTip": "Business\\Abstract\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T20:17:36.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IProductImageService.cs",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\Business\\Abstract\\IProductImageService.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\IProductImageService.cs",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\Business\\Abstract\\IProductImageService.cs",
+              "RelativeToolTip": "Business\\Abstract\\IProductImageService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T20:16:45.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IPaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\Business\\Abstract\\IPaymentService.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\IPaymentService.cs",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\Business\\Abstract\\IPaymentService.cs",
+              "RelativeToolTip": "Business\\Abstract\\IPaymentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T20:15:35.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IOrderItemService.cs",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\Business\\Abstract\\IOrderItemService.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\IOrderItemService.cs",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\Business\\Abstract\\IOrderItemService.cs",
+              "RelativeToolTip": "Business\\Abstract\\IOrderItemService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T20:14:34.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\Business\\Abstract\\IOrderService.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\Business\\Abstract\\IOrderService.cs",
+              "RelativeToolTip": "Business\\Abstract\\IOrderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T20:13:28.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IMessageService.cs",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\Business\\Abstract\\IMessageService.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\IMessageService.cs",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\Business\\Abstract\\IMessageService.cs",
+              "RelativeToolTip": "Business\\Abstract\\IMessageService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T20:12:28.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\Business\\Abstract\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\ICategoryService.cs",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\Business\\Abstract\\ICategoryService.cs",
+              "RelativeToolTip": "Business\\Abstract\\ICategoryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T20:10:05.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ICartItemService.cs",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\Business\\Abstract\\ICartItemService.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\ICartItemService.cs",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\Business\\Abstract\\ICartItemService.cs",
+              "RelativeToolTip": "Business\\Abstract\\ICartItemService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T20:09:21.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IAddressService.cs",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\Business\\Abstract\\IAddressService.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\IAddressService.cs",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\Business\\Abstract\\IAddressService.cs",
+              "RelativeToolTip": "Business\\Abstract\\IAddressService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T20:09:01.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\Business\\Abstract\\IProductService.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\IProductService.cs",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\Business\\Abstract\\IProductService.cs",
+              "RelativeToolTip": "Business\\Abstract\\IProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T20:08:31.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IUserDal.cs",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\DataAccess\\Abstract\\IUserDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Abstract\\IUserDal.cs",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\DataAccess\\Abstract\\IUserDal.cs",
+              "RelativeToolTip": "DataAccess\\Abstract\\IUserDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T20:07:29.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IProductImageDal.cs",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\DataAccess\\Abstract\\IProductImageDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Abstract\\IProductImageDal.cs",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\DataAccess\\Abstract\\IProductImageDal.cs",
+              "RelativeToolTip": "DataAccess\\Abstract\\IProductImageDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T20:07:11.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IProductDal.cs",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\DataAccess\\Abstract\\IProductDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Abstract\\IProductDal.cs",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\DataAccess\\Abstract\\IProductDal.cs",
+              "RelativeToolTip": "DataAccess\\Abstract\\IProductDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T20:06:44.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IPaymentDal.cs",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\DataAccess\\Abstract\\IPaymentDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Abstract\\IPaymentDal.cs",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\DataAccess\\Abstract\\IPaymentDal.cs",
+              "RelativeToolTip": "DataAccess\\Abstract\\IPaymentDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T20:06:01.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IOrderItemDal.cs",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\DataAccess\\Abstract\\IOrderItemDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Abstract\\IOrderItemDal.cs",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\DataAccess\\Abstract\\IOrderItemDal.cs",
+              "RelativeToolTip": "DataAccess\\Abstract\\IOrderItemDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T20:05:26.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IOrderDal.cs",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\DataAccess\\Abstract\\IOrderDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Abstract\\IOrderDal.cs",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\DataAccess\\Abstract\\IOrderDal.cs",
+              "RelativeToolTip": "DataAccess\\Abstract\\IOrderDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T20:05:01.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IMessageDal.cs",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\DataAccess\\Abstract\\IMessageDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Abstract\\IMessageDal.cs",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\DataAccess\\Abstract\\IMessageDal.cs",
+              "RelativeToolTip": "DataAccess\\Abstract\\IMessageDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T20:04:46.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ICategoryDal.cs",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\DataAccess\\Abstract\\ICategoryDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Abstract\\ICategoryDal.cs",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\DataAccess\\Abstract\\ICategoryDal.cs",
+              "RelativeToolTip": "DataAccess\\Abstract\\ICategoryDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T20:04:22.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ICartItemDal.cs",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\DataAccess\\Abstract\\ICartItemDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Abstract\\ICartItemDal.cs",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\DataAccess\\Abstract\\ICartItemDal.cs",
+              "RelativeToolTip": "DataAccess\\Abstract\\ICartItemDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T20:03:23.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IAddressDal.cs",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\DataAccess\\Abstract\\IAddressDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Abstract\\IAddressDal.cs",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\DataAccess\\Abstract\\IAddressDal.cs",
+              "RelativeToolTip": "DataAccess\\Abstract\\IAddressDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T20:01:56.445Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
