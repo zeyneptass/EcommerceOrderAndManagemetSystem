@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Abstract
 {
-    public interface IMessageDal
+    public interface IMessageDal:IEntityRepository<IMessageDal>
     {
     }
 }
