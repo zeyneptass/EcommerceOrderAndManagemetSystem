@@ -1,5 +1,6 @@
-﻿using Entities.Abstract;
+﻿
 using static Entities.Concrete.User;
+using Core.Entities;
 
 namespace Entities.Concrete
 {

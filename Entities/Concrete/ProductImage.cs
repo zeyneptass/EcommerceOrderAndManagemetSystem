@@ -1,4 +1,4 @@
-﻿using Entities.Abstract;
+﻿using Core.Entities;
 
 namespace Entities.Concrete
 {
@@ -10,6 +10,7 @@ namespace Entities.Concrete
         public bool IsMain { get; set; }
 
         //// Navigation Properties
-        //public Product Product { get; set; }
+        public Product Product { get; set; }
+
     }
 }

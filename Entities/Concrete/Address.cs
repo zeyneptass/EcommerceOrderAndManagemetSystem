@@ -1,8 +1,10 @@
-﻿using Entities.Abstract;
+﻿
+
+using Core.Entities;
 
 namespace Entities.Concrete
 {
-    public class Address : IEntity
+    public class Address:IEntity
     {
         public int AddressID { get; set; }
         public int UserID { get; set; }
