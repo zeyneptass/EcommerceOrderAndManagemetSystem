@@ -10,7 +10,7 @@ static void ProductTest()
 {
     ProductManager productManager = new(new EfProductDal());
 
-    foreach (var product in productManager.GetAll())
+    foreach (var product in productManager.GetAll().Data)
     {
         Console.WriteLine(product.Name);
     }
@@ -30,9 +30,16 @@ ProductDTO();
 static void ProductDTO()
 {
     ProductManager productManager = new(new EfProductDal());
-
-    foreach (var product in productManager.GetProductDetails())
+    var result = productManager.GetProductDetails();
+    if (result.Success ==true)
     {
-        Console.WriteLine(product.Name + " / " + product.CategoryName);
+        foreach (var product in result.Data)
+        {
+            Console.WriteLine(product.Name + " / " + product.CategoryName);
+        }
+    }
+    else
+    {
+        Console.WriteLine(result.Message);
     }
 }
