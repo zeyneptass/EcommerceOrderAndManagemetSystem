@@ -11,11 +11,12 @@ namespace Business.Abstract
 {
     public interface IProductService
     {
-        IDataResult<List<Product>> GetAll();
-        IDataResult<List<Product>> GetAllByCategoryId(int id);
-        IDataResult<List<Product>> GetByUnitPrice(decimal min, decimal max);
-        IDataResult<List<ProductDetailDto>> GetProductDetails();
-        IDataResult<Product> GetById(int productId);
-        IResult Add(Product product);
+        Task<IDataResult<List<Product>>> GetAllAsync();
+        Task<IDataResult<List<Product>>> GetAllByCategoryIdAsync(int id);
+        Task<IDataResult<List<Product>>> GetByUnitPriceAsync(decimal min, decimal max);
+        Task<IDataResult<List<ProductDetailDto>>> GetProductDetailsAsync();
+        Task<IDataResult<Product>> GetByIdAsync(int productId);
+        Task<IResult> AddAsync(Product product);
     }
+
 }

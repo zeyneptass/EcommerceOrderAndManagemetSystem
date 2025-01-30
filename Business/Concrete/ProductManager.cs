@@ -21,43 +21,48 @@ namespace Business.Concrete
             _productDal = productDal;
         }
 
-        public IResult Add(Product product)
+        public async Task<IResult> AddAsync(Product product)
         {
-            if (product.Name.Length<2)
+            if (product.Name.Length < 2)
             {
                 return new ErrorResult(Messages.ProductNameInvalid);
             }
-            _productDal.Add(product);
+            await _productDal.AddAsync(product);
             return new SuccessResult(Messages.ProductAdded);
         }
 
-        public IDataResult<List<Product>> GetAll()
+        public async Task<IDataResult<List<Product>>> GetAllAsync()
         {
-            if (DateTime.Now.Hour==22)
+            if (DateTime.Now.Hour == 22)
             {
                 return new ErrorDataResult<List<Product>>(Messages.MaintenanceTime);
             }
-            return new SuccesDataResult<List<Product>>(_productDal.GetAll(),Messages.ProductListed);    
+            var result = await _productDal.GetAllAsync();
+            return new SuccessDataResult<List<Product>>(result, Messages.ProductListed);
         }
 
-        public IDataResult<List<Product>> GetAllByCategoryId(int id)
+        public async Task<IDataResult<List<Product>>> GetAllByCategoryIdAsync(int id)
         {
-            return new SuccesDataResult<List<Product>>(_productDal.GetAll(p => p.CategoryID == id)); 
+            var result = await _productDal.GetAllAsync(p => p.CategoryID == id);
+            return new SuccessDataResult<List<Product>>(result);
         }
 
-        public IDataResult<Product> GetById(int productId)
+        public async Task<IDataResult<Product>> GetByIdAsync(int productId)
         {
-            return new SuccesDataResult<Product>(_productDal.Get(p => p.ProductID == productId));
+            var result = await _productDal.GetAsync(p => p.ProductID == productId);
+            return new SuccessDataResult<Product>(result);
         }
 
-        public IDataResult<List<Product>> GetByUnitPrice(decimal min, decimal max)
+        public async Task<IDataResult<List<Product>>> GetByUnitPriceAsync(decimal min, decimal max)
         {
-            return new SuccesDataResult<List<Product>>(_productDal.GetAll(p => p.Price >= min && p.Price <= max));
+            var result = await _productDal.GetAllAsync(p => p.Price >= min && p.Price <= max);
+            return new SuccessDataResult<List<Product>>(result);
         }
 
-        public IDataResult<List<ProductDetailDto>> GetProductDetails()
+        public async Task<IDataResult<List<ProductDetailDto>>> GetProductDetailsAsync()
         {
-            return new SuccesDataResult<List<ProductDetailDto>>(_productDal.GetProductDetails());
+            var result = await _productDal.GetProductDetailsAsync();
+            return new SuccessDataResult<List<ProductDetailDto>>(result);
         }
 
 

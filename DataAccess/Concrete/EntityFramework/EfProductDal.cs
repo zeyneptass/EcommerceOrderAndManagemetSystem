@@ -14,7 +14,7 @@ namespace DataAccess.Concrete.EntityFramework
 {
     public class EfProductDal : EfEntityRepositoryBase<Product, EcommerceContext>, IProductDal
     {
-        public List<ProductDetailDto> GetProductDetails()
+        public async Task<List<ProductDetailDto>> GetProductDetailsAsync()
         {
             using (EcommerceContext context = new())
             {
@@ -28,7 +28,8 @@ namespace DataAccess.Concrete.EntityFramework
                                  CategoryName = c.Name,
                                  StockQuantity = p.StockQuantity
                              };
-                return result.ToList();
+
+                return await result.ToListAsync();
             }
         }
     }

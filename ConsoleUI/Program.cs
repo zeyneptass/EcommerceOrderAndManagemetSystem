@@ -2,44 +2,52 @@
 using Business.Concrete;
 using DataAccess.Concrete.EntityFramework;
 
-ProductTest();
-
-CategoryTest();
-
-static void ProductTest()
+await ProductTestAsync();
+await CategoryTestAsync();
+await ProductDTOAsync();
+static async Task ProductTestAsync()
 {
     ProductManager productManager = new(new EfProductDal());
 
-    foreach (var product in productManager.GetAll().Data)
-    {
-        Console.WriteLine(product.Name);
-    }
-}
-
-static void CategoryTest()
-{
-    CategoryManager categoryManager = new(new EfCategoryDal());
-    foreach (var category in categoryManager.GetAll())
-    {
-        Console.WriteLine(category.Name);
-    }
-}
-
-ProductDTO();
-
-static void ProductDTO()
-{
-    ProductManager productManager = new(new EfProductDal());
-    var result = productManager.GetProductDetails();
-    if (result.Success ==true)
+    var result = await productManager.GetAllAsync();
+    if (result.Success)
     {
         foreach (var product in result.Data)
         {
-            Console.WriteLine(product.Name + " / " + product.CategoryName);
+            await Console.Out.WriteLineAsync(product.Name);
+        }
+    }
+}
+
+static async Task CategoryTestAsync()
+{
+    CategoryManager categoryManager = new(new EfCategoryDal());
+    var result = await categoryManager.GetAllAsync();
+    if (result.Success)
+    {
+        foreach (var category in result.Data)
+        {
+            await Console.Out.WriteLineAsync(category.Name);
+        }
+    }
+}
+
+ProductDTOAsync();
+
+static async Task ProductDTOAsync()
+{
+    ProductManager productManager = new(new EfProductDal());
+
+    var result = await productManager.GetProductDetailsAsync();
+    if (result.Success)
+    {
+        foreach (var product in result.Data)
+        {
+            await Console.Out.WriteLineAsync(product.Name + " / " + product.CategoryName);
         }
     }
     else
     {
-        Console.WriteLine(result.Message);
+        await Console.Out.WriteLineAsync(result.Message);
     }
 }

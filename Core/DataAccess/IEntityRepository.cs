@@ -15,13 +15,13 @@ namespace Core.DataAccess
     public interface IEntityRepository<T> where T: class,IEntity,new()
     {
         // Ürünlerin tamamı değil de belli bir kısmını getirmek için filtre vermemiz gerekir:
-        List<T> GetAll(Expression<Func<T,bool>> filter = null);
+        Task<List<T>> GetAllAsync(Expression<Func<T, bool>> filter = null);
         // Filter=null  'filtre vermek zorunda olmadığını açıklar'
         // Tek bir elemanı getirmek için :
-        T Get(Expression<Func<T,bool>> filter); // filtre vermek zorundayız
-        void Add(T entity);
-        void Update(T entity);
-        void Delete(T entity);
-                
+        Task<T> GetAsync(Expression<Func<T, bool>> filter); // filtre vermek zorundayız
+        Task AddAsync(T entity);
+        Task UpdateAsync(T entity);
+        Task DeleteAsync(T entity);
+
     }
 }

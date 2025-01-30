@@ -1,4 +1,6 @@
 ﻿using Business.Abstract;
+using Business.Constants;
+using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using System;
@@ -18,14 +20,28 @@ namespace Business.Concrete
             _categoryDal = categoryDal;
         }
 
-        public List<Category> GetAll()
+        public async Task<IDataResult<List<Category>>> GetAllAsync()
         {
-            return _categoryDal.GetAll();
+            var result = await _categoryDal.GetAllAsync();
+
+            if (result == null || result.Count == 0)
+            {
+                return new ErrorDataResult<List<Category>>(Messages.NotFoundedCategory);
+            }
+
+            return new SuccessDataResult<List<Category>>(result, Messages.FetchedCategory);
         }
 
-        public Category GetById(int categoryId)
+        public async Task<IDataResult<Category>> GetByIdAsync(int categoryId)
         {
-            return _categoryDal.Get(c => c.CategoryID == categoryId);
+            var category = await _categoryDal.GetAsync(c => c.CategoryID == categoryId);
+
+            if (category == null)
+            {
+                return new ErrorDataResult<Category>(Messages.NotFoundedCategory);
+            }
+
+            return new SuccessDataResult<Category>(category, Messages.FetchedCategory);
         }
     }
 }

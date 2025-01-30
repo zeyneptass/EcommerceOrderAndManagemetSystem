@@ -14,5 +14,8 @@ namespace Business.Constants
         public static string ProductListed = "Products are listed";
 
         public static string MaintenanceTime = "System is in the maintenance time";
+
+        public static string NotFoundedCategory = "Category not found";
+        public static string FetchedCategory = "Categories were successfully fetched";
     }
 }
