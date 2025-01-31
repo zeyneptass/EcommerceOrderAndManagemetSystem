@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rq7OCG0dn3v/jr6FGzUYEmVJdQ5Xb5RkuImm7vNseyvTqG4j82XWlGg6Ho3Acw2SwwKVBU0tfC3YanGF6nuu/Q==",
+  "dgSpecHash": "w71q9cjb5YjkEFwpqKjFdWbGVuYOV7Ug68TpGA5t44ueV5437KSFshF4H4u0309eOqGuY9TxrfX6R7Q2Co9lPw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\zeyne\\OneDrive\\Masaüstü\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\Core\\Core.csproj",
+  "projectFilePath": "C:\\Users\\zeyne\\OneDrive\\Masaüstü\\Projeler\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zeyne\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\zeyne\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
