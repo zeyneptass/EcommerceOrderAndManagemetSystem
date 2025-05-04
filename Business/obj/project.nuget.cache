@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "lvJsyZGzcvIlrdnbZUxS33tuEZjb7EjG5XnSuVbJhAsj6mHZAFXsIf5u1WzQIAX9nF286W3UAbJo65GZSgPryw==",
   "success": true,
   "projectFilePath": "C:\\Users\\zeyne\\OneDrive\\Masaüstü\\Projeler\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\Business\\Business.csproj",
+=======
+  "dgSpecHash": "vwWZU7X28+I=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\zeyne\\OneDrive\\Masaüstü\\E-Commerce Order and Management System\\EcommerceOrderAndManagementSystem\\Business\\Business.csproj",
+>>>>>>> 1f9d2f4 (CategoriesController class is created)
   "expectedPackageFiles": [
     "C:\\Users\\zeyne\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\zeyne\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

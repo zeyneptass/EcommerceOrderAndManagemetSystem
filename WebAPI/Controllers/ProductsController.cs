@@ -65,6 +65,10 @@ namespace WebAPI.Controllers
             }
             return BadRequest(result);
         }
+<<<<<<< HEAD
+=======
+        [HttpGet("getProductsDetails")]
+>>>>>>> 1f9d2f4 (CategoriesController class is created)
         public async Task<IActionResult> GetProductsDetails()
         {
             var result = await _productService.GetProductDetailsAsync();

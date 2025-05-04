@@ -1,3 +1,7 @@
 ﻿<Project>
+<<<<<<< HEAD
+=======
+  <Import Project="Microsoft.AspNetCore.StaticWebAssetEndpoints.props" />
+>>>>>>> 1f9d2f4 (CategoriesController class is created)
   <Import Project="Microsoft.AspNetCore.StaticWebAssets.props" />
 </Project>

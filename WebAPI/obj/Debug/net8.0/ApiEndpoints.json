@@ -1,6 +1,7 @@
 [
   {
     "ContainingType": "WebAPI.Controllers.ProductsController",
+<<<<<<< HEAD
     "Method": "GetProductsDetails",
     "RelativePath": "api/Products",
     "HttpMethod": "",
@@ -11,6 +12,8 @@
   },
   {
     "ContainingType": "WebAPI.Controllers.ProductsController",
+=======
+>>>>>>> 1f9d2f4 (CategoriesController class is created)
     "Method": "Add",
     "RelativePath": "api/Products/addProduct",
     "HttpMethod": "POST",
@@ -89,6 +92,19 @@
     "ReturnTypes": []
   },
   {
+<<<<<<< HEAD
+=======
+    "ContainingType": "WebAPI.Controllers.ProductsController",
+    "Method": "GetProductsDetails",
+    "RelativePath": "api/Products/getProductsDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+>>>>>>> 1f9d2f4 (CategoriesController class is created)
     "ContainingType": "WebAPI.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
@@ -106,6 +122,11 @@
         ],
         "StatusCode": 200
       }
+<<<<<<< HEAD
     ]
+=======
+    ],
+    "EndpointName": "GetWeatherForecast"
+>>>>>>> 1f9d2f4 (CategoriesController class is created)
   }
 ]

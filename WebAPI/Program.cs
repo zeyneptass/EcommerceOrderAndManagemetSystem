@@ -19,6 +19,11 @@ builder.Services.AddSingleton<IProductDal, EfProductDal>();
 builder.Services.AddSingleton<IProductService, ProductManager>();
 #endregion
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 1f9d2f4 (CategoriesController class is created)
 var app = builder.Build();
 
 

@@ -668,7 +668,14 @@
           "Entities": "1.0.0"
         },
         "runtime": {
+<<<<<<< HEAD
           "Business.dll": {}
+=======
+          "Business.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+>>>>>>> 1f9d2f4 (CategoriesController class is created)
         }
       },
       "Core/1.0.0": {
@@ -676,7 +683,14 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.1"
         },
         "runtime": {
+<<<<<<< HEAD
           "Core.dll": {}
+=======
+          "Core.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+>>>>>>> 1f9d2f4 (CategoriesController class is created)
         }
       },
       "DataAccess/1.0.0": {
@@ -686,7 +700,14 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.1"
         },
         "runtime": {
+<<<<<<< HEAD
           "DataAccess.dll": {}
+=======
+          "DataAccess.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+>>>>>>> 1f9d2f4 (CategoriesController class is created)
         }
       },
       "Entities/1.0.0": {
@@ -694,7 +715,14 @@
           "Core": "1.0.0"
         },
         "runtime": {
+<<<<<<< HEAD
           "Entities.dll": {}
+=======
+          "Entities.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+>>>>>>> 1f9d2f4 (CategoriesController class is created)
         }
       }
     }

@@ -1,11 +1,20 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "7/8N/7vR8Gil4oF52j1JyaDaDh/w/bwrwTANJiMV94U=",
+=======
+  "Hash": "tDqGxdq0A4zT6y/tDdlw1NRTJSa30/3YTmJbD0pRBwc=",
+>>>>>>> 1f9d2f4 (CategoriesController class is created)
   "Source": "WebAPI",
   "BasePath": "_content/WebAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
+<<<<<<< HEAD
   "Assets": []
+=======
+  "Assets": [],
+  "Endpoints": []
+>>>>>>> 1f9d2f4 (CategoriesController class is created)
 }
